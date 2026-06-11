@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up – ReadLeaf</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <div class="card">
+        <!-- Left: Form section -->
+        <section class="form-section">
+          <h1 class="heading">Ready to start your<br />success story?</h1>
+          <p class="subheading">
+            Signup to our website and start leafing through your favorite
+            literature today!
+          </p>
+
+          <form action="#" novalidate>
+            <div class="field-group">
+              <label for="fullname" class="field-label">Full name</label>
+              <input
+                type="text"
+                id="fullname"
+                name="fullname"
+                class="field-input"
+                placeholder="Jane Doe"
+                autocomplete="name"
+              />
+            </div>
+
+            <div class="field-group">
+              <label for="email" class="field-label">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="field-input"
+                placeholder="janedoe@mail.com"
+                autocomplete="email"
+              />
+            </div>
+
+            <div class="field-group">
+              <label for="interest" class="field-label">Area of interest</label>
+              <select id="interest" name="interest" class="field-input field-select">
+                <option value="" disabled selected></option>
+                <option value="fiction">Fiction</option>
+                <option value="science">Science</option>
+                <option value="history">History</option>
+                <option value="philosophy">Philosophy</option>
+                <option value="technology">Technology</option>
+              </select>
+            </div>
+
+            <div class="checkbox-group">
+              <input type="checkbox" id="terms" name="terms" />
+              <label for="terms">
+                I agree to the
+                <a href="#" class="terms-link">Terms &amp; Conditions</a>
+              </label>
+            </div>
+
+            <button type="submit" class="btn-signup">Sign up</button>
+          </form>
+        </section>
+
+        <!-- Right: Illustration section -->
+        <section class="illustration-section" aria-hidden="true">
+          
+          <img
+            src="https://i.pinimg.com/736x/84/2e/06/842e063163580c7f151e8be4a067e10a.jpg"
+            alt="Person reading a book"
+            class="illustration-img"
+          />
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
